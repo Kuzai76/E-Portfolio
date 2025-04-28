@@ -51,14 +51,14 @@ const Projects = () => {
         </div>
         {/* ============ project One End here ================== */}
         {/* ============ project Two Start here ================ */}
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
+        <div className="flex flex-col xl:flex-row-reverse gap-6 items-center">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             target="_blank"
           >
             <div className="w-full h-auto relative group overflow-hidden rounded-lg">
               <video
-                src="/assets/Esaie.mp4" // <- replace this with your actual video path
+                src="/assets/Esaie.mp4"
                 autoPlay
                 loop
                 muted
@@ -74,20 +74,11 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Interview Roleplay Session</h3>
             </div>
-            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 text-justify rounded-md xl:-mr-16">
+            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 text-justify rounded-md xl:-mr-16 flex items-center">
               A mock interview session conducted to strengthen professional communication, strategic thinking, and adaptability under pressure. 
               The exercise focused on delivering structured responses using formal techniques, managing unexpected questions confidently, and 
               applying feedback to improve future interview performance and overall presentation skills.
             </p>
-            <div className="text-2xl flex gap-4">
-              <a
-                className="hover:text-textGreen duration-300"
-                href=""
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
-              </a>
-            </div>
           </div>
         </div>
         {/* ============ project Two End here ================== */}
